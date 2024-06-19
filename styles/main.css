@@ -1,0 +1,182 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  position: relative;
+}
+.main-container p,
+.main-container a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.main-container .navbar-wrapper {
+  position: fixed;
+  z-index: 4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 108px;
+  background-color: transparent;
+}
+.main-container .navbar-wrapper a {
+  color: white;
+}
+.main-container .navbar-wrapper .links-wrapper {
+  width: 22%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-container .navbar-wrapper .links-wrapper .button {
+  border-radius: 30px;
+  background-color: #e91e63;
+  border: none;
+  padding: 16px 22px;
+}
+
+.hero-background-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/parallax_1.jpeg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-background-img img {
+  filter: brightness(50%);
+  align-self: center;
+  width: 95%;
+}
+.hero-background-img .statue-liberty {
+  height: 900px;
+  top: -7.3%;
+  display: block;
+}
+.hero-background-img .mesh {
+  z-index: 1;
+  top: 0;
+  height: 790px;
+  width: 100%;
+  background-color: black;
+  opacity: 41.2%;
+}
+.hero-background-img .context-wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 24%;
+  left: 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.hero-background-img .context-wrapper h1 {
+  font-size: 72px;
+}
+.hero-background-img .context-wrapper h6 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 57px 0px;
+}
+.hero-background-img .context-wrapper button {
+  background-color: #e91e63;
+  border: none;
+  color: white;
+  padding: 3% 5.5%;
+  border-radius: 3px;
+}
+
+.placeholder-wrapper {
+  position: absolute;
+  top: 75%;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.hover-content-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 3;
+  top: 67%;
+  left: 2.4%;
+  width: 95%;
+  background: rgb(255, 255, 255);
+  border-radius: 6px 6px 0 0;
+  -webkit-box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.75);
+}
+.hover-content-wrapper .icon-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hover-content-wrapper .icon-content-wrapper h2 {
+  color: #3c4858;
+  font-family: "Merriweather", serif;
+  font-size: 35px;
+  margin: 40px 0 50px 0;
+}
+.hover-content-wrapper .icon-content-wrapper .cards-wrapper {
+  display: flex;
+}
+.hover-content-wrapper .icon-content-wrapper .cards-wrapper .content-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 7% 0;
+}
+.hover-content-wrapper .icon-content-wrapper .cards-wrapper .content-card-wrapper img {
+  width: 60px;
+}
+.hover-content-wrapper .icon-content-wrapper .cards-wrapper .content-card-wrapper h5 {
+  font-size: 17px;
+  color: #3c4858;
+  font-family: "Merriweather", serif;
+  margin: 20px 0 0 0;
+}
+.hover-content-wrapper .icon-content-wrapper .cards-wrapper .content-card-wrapper p {
+  width: 358px;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 14px;
+}
+.hover-content-wrapper .scoll-bckgrd-img-wrapper {
+  background-image: url("/images/new-york-city.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  justify-content: space-evenly;
+}
+.hover-content-wrapper .scoll-bckgrd-img-wrapper .mesh {
+  background-color: rgba(0, 0, 0, 0.53);
+  height: 300px;
+  width: 100%;
+}
+.hover-content-wrapper .scoll-bckgrd-img-wrapper .context-wrapper {
+  width: 500px;
+  position: absolute;
+  top: 69%;
+  left: 12%;
+  color: white;
+}
+.hover-content-wrapper .scoll-bckgrd-img-wrapper .context-wrapper h3 {
+  font-size: 40px;
+  margin: 0;
+}
+.hover-content-wrapper .scoll-bckgrd-img-wrapper img {
+  width: 500px;
+  height: 180px;
+  position: absolute;
+  top: 67%;
+  left: 54%;
+}/*# sourceMappingURL=main.css.map */
