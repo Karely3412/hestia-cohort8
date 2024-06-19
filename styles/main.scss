@@ -48,8 +48,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  // position: relative;
-  // text-align: center;
 
   img {
     filter: brightness(50%);
@@ -161,6 +159,7 @@ body {
           padding: 10px 16px;
           text-align: center;
           font-size: 14px;
+          color: rgb(0 0 0 / 31%);
         }
       }
     }
@@ -185,7 +184,7 @@ body {
     .context-wrapper {
       width: 500px;
       position: absolute;
-      top: 69%;
+      top: 40%;
       left: 12%;
       color: white;
 
@@ -199,17 +198,101 @@ body {
       width: 500px;
       height: 180px;
       position: absolute;
-      top: 67%;
+      top: 38%;
       left: 54%;
     }
   }
 
   .blog-wrapper {
-    .content-wrapper {
+    height: 355px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5% 0 8% 0;
+
+    h4 {
+      font-size: 38px;
+      color: #3c4858;
+    }
+
+    .content-cards-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2%;
+    }
+    .content-card-wrapper {
+      width: 400px;
+      height: 250px;
+
+      h5 {
+        font-family: "Roboto", sans-serif;
+      }
+
+      h6 {
+        color: #3c4858;
+        font-size: 20px;
+        margin: 10px 0;
+      }
+
+      p {
+        color: rgb(0 0 0 / 31%);
+      }
+
+      .purple {
+        color: #89229b;
+      }
+
+      .blue {
+        color: #00bcd4;
+      }
+
+      .red {
+        color: #f44336;
+      }
     }
   }
 
   .get-in-touch-wrapper {
+    width: 100%;
+    height: 412px;
+    background-image: url(/images/new-york-city.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .mesh {
+      background: #000000bd;
+      width: 100%;
+      height: 412px;
+      position: absolute;
+      z-index: 0;
+      bottom: 0%;
+    }
+
+    h6 {
+      font-size: 28px;
+    }
+
+    h6,
+    p {
+      color: white;
+    }
+
+    .context-wrapper {
+      position: absolute;
+      bottom: 4%;
+      left: 12%;
+
+      i {
+        font-size: 29px;
+      }
+
+      .reg-ptag {
+        margin: 0px 0 0 25px;
+      }
+    }
   }
 }
 

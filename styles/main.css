@@ -147,6 +147,7 @@ body {
   padding: 10px 16px;
   text-align: center;
   font-size: 14px;
+  color: rgba(0, 0, 0, 0.31);
 }
 .hover-content-wrapper .scoll-bckgrd-img-wrapper {
   background-image: url("/images/new-york-city.jpeg");
@@ -165,7 +166,7 @@ body {
 .hover-content-wrapper .scoll-bckgrd-img-wrapper .context-wrapper {
   width: 500px;
   position: absolute;
-  top: 69%;
+  top: 40%;
   left: 12%;
   color: white;
 }
@@ -177,6 +178,82 @@ body {
   width: 500px;
   height: 180px;
   position: absolute;
-  top: 67%;
+  top: 38%;
   left: 54%;
+}
+.hover-content-wrapper .blog-wrapper {
+  height: 355px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5% 0 8% 0;
+}
+.hover-content-wrapper .blog-wrapper h4 {
+  font-size: 38px;
+  color: #3c4858;
+}
+.hover-content-wrapper .blog-wrapper .content-cards-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+.hover-content-wrapper .blog-wrapper .content-card-wrapper {
+  width: 400px;
+  height: 250px;
+}
+.hover-content-wrapper .blog-wrapper .content-card-wrapper h5 {
+  font-family: "Roboto", sans-serif;
+}
+.hover-content-wrapper .blog-wrapper .content-card-wrapper h6 {
+  color: #3c4858;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.hover-content-wrapper .blog-wrapper .content-card-wrapper p {
+  color: rgba(0, 0, 0, 0.31);
+}
+.hover-content-wrapper .blog-wrapper .content-card-wrapper .purple {
+  color: #89229b;
+}
+.hover-content-wrapper .blog-wrapper .content-card-wrapper .blue {
+  color: #00bcd4;
+}
+.hover-content-wrapper .blog-wrapper .content-card-wrapper .red {
+  color: #f44336;
+}
+.hover-content-wrapper .get-in-touch-wrapper {
+  width: 100%;
+  height: 412px;
+  background-image: url(/images/new-york-city.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hover-content-wrapper .get-in-touch-wrapper .mesh {
+  background: rgba(0, 0, 0, 0.7411764706);
+  width: 100%;
+  height: 412px;
+  position: absolute;
+  z-index: 0;
+  bottom: 0%;
+}
+.hover-content-wrapper .get-in-touch-wrapper h6 {
+  font-size: 28px;
+}
+.hover-content-wrapper .get-in-touch-wrapper h6,
+.hover-content-wrapper .get-in-touch-wrapper p {
+  color: white;
+}
+.hover-content-wrapper .get-in-touch-wrapper .context-wrapper {
+  position: absolute;
+  bottom: 4%;
+  left: 12%;
+}
+.hover-content-wrapper .get-in-touch-wrapper .context-wrapper i {
+  font-size: 29px;
+}
+.hover-content-wrapper .get-in-touch-wrapper .context-wrapper .reg-ptag {
+  margin: 0px 0 0 25px;
 }/*# sourceMappingURL=main.css.map */
