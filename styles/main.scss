@@ -1,4 +1,4 @@
-@mixin flex-display($justify, $align) {
+@mixin flex-display($justify: flex-start, $align) {
   display: flex;
   justify-content: $justify;
   align-items: $align;
@@ -19,12 +19,9 @@ body {
     font-weight: 300;
   }
   .navbar-wrapper {
+    @include flex-display(space-around, center);
     position: fixed;
     z-index: 4;
-    @include flex-display(space-around, center);
-    // display: flex;
-    // justify-content: space-around;
-    // align-items: center;
     width: 100%;
     height: 108px;
     background-color: transparent;
@@ -33,10 +30,8 @@ body {
     }
 
     .links-wrapper {
+      @include flex-display(space-around, center);
       width: 22%;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
 
       .button {
         border-radius: 30px;
@@ -49,12 +44,10 @@ body {
 }
 
 .hero-background-img {
+  @include flex-display(center, center);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/images/parallax_1.jpeg");
   background-size: 100% 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   img {
     filter: brightness(50%);
@@ -78,13 +71,12 @@ body {
   }
 
   .context-wrapper {
+    @include flex-display(flex-start, center);
     position: absolute;
     z-index: 1;
     top: 24%;
     left: 31%;
-    display: flex;
     flex-direction: column;
-    align-items: center;
     color: white;
     font-family: "Roboto", sans-serif;
     h1 {
@@ -211,9 +203,8 @@ body {
   }
 
   .blog-wrapper {
+    @include flex-display(flex-start, center);
     height: 355px;
-    display: flex;
-    align-items: center;
     flex-direction: column;
     margin: 5% 0 8% 0;
 
@@ -223,9 +214,8 @@ body {
     }
 
     .content-cards-wrapper {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include flex-display(center, center);
+
       gap: 2%;
     }
     .content-card-wrapper {
@@ -304,14 +294,12 @@ body {
 }
 
 .footer {
+  @include flex-display(space-around, center);
   position: relative;
   height: 100px;
   width: 100%;
   background-color: #333;
   top: 80rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
