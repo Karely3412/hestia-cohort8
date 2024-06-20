@@ -110,7 +110,7 @@ body {
   width: 95%;
   background: rgb(255, 255, 255);
   border-radius: 6px 6px 0 0;
-  -webkit-box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 12px 25px -4px rgba(0, 0, 0, 0.75);
 }
 .hover-content-wrapper .icon-content-wrapper {
   display: flex;
@@ -166,7 +166,7 @@ body {
 .hover-content-wrapper .scoll-bckgrd-img-wrapper .context-wrapper {
   width: 500px;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 12%;
   color: white;
 }
@@ -178,7 +178,7 @@ body {
   width: 500px;
   height: 180px;
   position: absolute;
-  top: 38%;
+  top: 28%;
   left: 54%;
 }
 .hover-content-wrapper .blog-wrapper {
@@ -256,4 +256,34 @@ body {
 }
 .hover-content-wrapper .get-in-touch-wrapper .context-wrapper .reg-ptag {
   margin: 0px 0 0 25px;
+}
+
+.footer {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background-color: #333;
+  top: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+.footer .about-parent-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer p {
+  font-weight: 300;
+}
+
+.lower-placeholder-wrapper {
+  height: 249px;
 }/*# sourceMappingURL=main.css.map */
